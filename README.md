@@ -1,4 +1,5 @@
-# Unit-Currency_converter
+# Unit-Currency_converter in C language
+# Mini Project
 
 Title: Unit & Currency Converter Mini Project
 
