@@ -5,8 +5,9 @@ Title: Unit & Currency Converter Mini Project
 
 
 Description:
-
-    The Unit & Currency Converter is a simple yet powerful C language mini project designed to assist users in converting various units and currencies conveniently. This project aims to provide a user-friendly        interface for quick and accurate conversions, making it a valuable tool for everyday tasks.
+    The Unit & Currency Converter is a simple yet powerful C language mini project designed to assist users in converting various units and currencies conveniently. This project aims to provide a user-    
+    friendly           
+    interface for quick and accurate conversions, making it a valuable tool for everyday tasks.
 
 
 
@@ -51,22 +52,22 @@ Structures for Units:-
 
 Functions:-
 
-    length(), temperature(), time(), mass(), currency(): Functions to handle unit conversions for each category.
-    display(), display2(), display3(), display4(), display5(): Functions to display the history of previous calculations for each category.
+  length(), temperature(), time(), mass(), currency(): Functions to handle unit conversions for each category.
+  display(), display2(), display3(), display4(), display5(): Functions to display the history of previous calculations for each category.
 
 File Handling:-
 
-    Uses file pointers (FILE *fp) to save and read conversion history to/from files (student3.txt, student2.txt, tim.txt, mas.txt, curr.txt).
+   Uses file pointers (FILE *fp) to save and read conversion history to/from files (student3.txt, student2.txt, tim.txt, mas.txt, curr.txt).
 
 Menu-Driven Interface:-
 
-    The main() function provides a menu-driven interface for the user to choose the category of conversion.
-    The user can perform conversions or check the history of previous conversions.
+   The main() function provides a menu-driven interface for the user to choose the category of conversion.
+   The user can perform conversions or check the history of previous conversions.
 
 Error Handling:-
 
-    Checks for invalid credentials (negative values) during input.
-    Currency Conversion:
+   Checks for invalid credentials (negative values) during input.
+   Currency Conversion:
 
 The program includes a currency conversion section, converting between rupees, dollars, and pounds.
 Continuous Execution:
