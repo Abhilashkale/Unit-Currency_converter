@@ -37,16 +37,34 @@ Implementation:
 
 
 
-How to Use:
 
-Run the program and choose between unit or currency conversion.
-Follow the on-screen prompts to input the value and select the units or currencies.
-Receive the converted result along with any applicable additional information.
-Repeat the process for multiple conversions or exit the program when finished.
+This C program is a console-based Unit Converter that covers conversions for Length, Temperature, Time, Mass, and Currency. It includes functionalities to perform conversions and save the results to a history file for each category. The program uses structures to store different units and their values.
 
+Here's a brief overview of the key components:
 
+Structures for Units:-
+struct temp: Holds temperature unit values (Kelvin, Celsius, Fahrenheit).
+struct len: Holds length unit values (centimeters, meters, kilometers, miles).
+struct time: Holds time unit values (hours, seconds, minutes).
+struct mass: Holds mass unit values (grams, kilograms, milligrams).
+struct currency: Holds currency unit values (rupees, dollars, pounds).
 
-Note:
-Ensure a stable internet connection for accurate currency conversions, as real-time exchange rates are fetched from an external source.
-This Unit & Currency Converter mini project serves as a practical tool for individuals who need quick and reliable conversions for both everyday units and international currencies.
-Feel free to customize and expand upon this description based on the specific details and features you plan to include in your mini project.
+Functions:-
+length(), temperature(), time(), mass(), currency(): Functions to handle unit conversions for each category.
+display(), display2(), display3(), display4(), display5(): Functions to display the history of previous calculations for each category.
+
+File Handling:-
+Uses file pointers (FILE *fp) to save and read conversion history to/from files (student3.txt, student2.txt, tim.txt, mas.txt, curr.txt).
+
+Menu-Driven Interface:-
+The main() function provides a menu-driven interface for the user to choose the category of conversion.
+The user can perform conversions or check the history of previous conversions.
+
+Error Handling:-
+Checks for invalid credentials (negative values) during input.
+Currency Conversion:
+
+The program includes a currency conversion section, converting between rupees, dollars, and pounds.
+Continuous Execution:
+
+The program runs in an infinite loop, allowing the user to perform multiple conversions without restarting
